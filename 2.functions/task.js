@@ -60,7 +60,7 @@ function averageEvenElementsWorker(...arr) {
 		}
 	}
 	if (countEvenElement === 0) return 0;
-	let result = (sumEvenElement / countEvenElement).toFixed(2);
+	let result = +((sumEvenElement / countEvenElement).toFixed(2));
 	return result;
 }
 
